@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 Android NotificationChannels Sample
 ===================================
 
