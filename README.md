@@ -89,5 +89,4 @@ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
 License for the specific language governing permissions and limitations under
 the License.
 =======
-# FAME-app
->>>>>>> a81d398b04b545767e043464403d7844a7d8d887
+
