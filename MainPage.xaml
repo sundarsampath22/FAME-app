@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App2"
+             x:Class="App2.MainPage">
+    <StackLayout BackgroundColor="White" >
+        <StackLayout BackgroundColor="AntiqueWhite" Margin="10" Padding="20" VerticalOptions="Start">
+        
+                <Label FontSize="Medium" Text="Message Center" TextColor="Black" VerticalOptions="Center"
+               HorizontalOptions="Center" ></Label>
+        
+        </StackLayout>
+
+        <StackLayout BackgroundColor="BlanchedAlmond" Margin="10" Padding="20" VerticalOptions="Start">
+            <Label FontSize="Small" Text="Message1" TextColor="Black" 
+              VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"/>
+            <Entry Text="Message" FontSize="Small" TextColor="Black" BackgroundColor="Brown" HorizontalOptions="End" 
+                   VerticalOptions="Fill" WidthRequest="60"/>
+            <Button Text="Reply" BackgroundColor="PaleVioletRed" HorizontalOptions="End"/>
+            
+            <Label FontSize="Small" Text="Message2" TextColor="Black" 
+             VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"/>
+            <Entry Text="Message" FontSize="Small" TextColor="Black" BackgroundColor="Brown" HorizontalOptions="End" 
+                   VerticalOptions="Fill" WidthRequest="60"/>
+            <Button Text="Reply" BackgroundColor="PaleVioletRed" HorizontalOptions="End"/>
+            
+            <Label FontSize="Small" Text="Message2" TextColor="Black" 
+             VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"/>
+            <Entry Text="Message" FontSize="Small" TextColor="Black" BackgroundColor="Brown" HorizontalOptions="End" 
+                   VerticalOptions="Fill" WidthRequest="60"/>
+            <Button Text="Reply" BackgroundColor="PaleVioletRed" HorizontalOptions="End"/>
+        </StackLayout>
+
+        <StackLayout BackgroundColor="Brown" Margin="5" Padding="10" VerticalOptions="Center"
+                     HorizontalOptions="Center" WidthRequest="150">
+            <Button Text="Clear" Clicked="ClearMessages" BackgroundColor="Red"/>
+        </StackLayout>
+        
+    </StackLayout>
+
+
+
+</ContentPage>
