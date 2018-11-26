@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/sundar/AndroidStudioProjects/NotificationChannels/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml",
+            "outputFile": "C:\\Users\\colli\\AndroidStudioProjects\\FAME-app\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uz\\values-uz.xml",
             "map": [
                 {
-                    "source": "/home/sundar/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/2872b94e4d0a7b5ebb50617a94f763a0/res/values-uz/values-uz.xml",
+                    "source": "C:\\Users\\colli\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8f6e540460b17768503c98a36c3f9a1\\res\\values-uz\\values-uz.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/sundar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/095163206f0875d77044013a8715be8e/res/values-uz/values-uz.xml",
+                    "source": "C:\\Users\\colli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\659d0a08b48ae9e2428da2536ff67dbb\\res\\values-uz\\values-uz.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/sundar/AndroidStudioProjects/NotificationChannels/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml",
+            "outputFile": "C:\\Users\\colli\\AndroidStudioProjects\\FAME-app\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sr\\values-sr.xml",
             "map": [
                 {
-                    "source": "/home/sundar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/095163206f0875d77044013a8715be8e/res/values-sr/values-sr.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,214,317,423,509,613,731,812,892,980,1085,1193,1294,1398,1506,1607,1774,1871",
-                        "endColumns": "108,102,105,85,103,117,80,79,87,104,107,100,103,107,100,166,96,83",
-                        "endOffsets": "209,312,418,504,608,726,807,887,975,1080,1188,1289,1393,1501,1602,1769,1866,1950"
-                    }
-                },
-                {
-                    "source": "/home/sundar/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/2872b94e4d0a7b5ebb50617a94f763a0/res/values-sr/values-sr.xml",
+                    "source": "C:\\Users\\colli\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8f6e540460b17768503c98a36c3f9a1\\res\\values-sr\\values-sr.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "1955",
                         "endColumns": "100",
                         "endOffsets": "2051"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\colli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\659d0a08b48ae9e2428da2536ff67dbb\\res\\values-sr\\values-sr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,317,423,509,613,731,812,892,980,1085,1193,1294,1398,1506,1607,1774,1871",
+                        "endColumns": "108,102,105,85,103,117,80,79,87,104,107,100,103,107,100,166,96,83",
+                        "endOffsets": "209,312,418,504,608,726,807,887,975,1080,1188,1289,1393,1501,1602,1769,1866,1950"
                     }
                 }
             ]

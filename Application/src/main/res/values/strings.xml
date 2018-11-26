@@ -1,6 +1,6 @@
 <resources>
     <string name="btn1_description">Start foreground service</string>
-    <string name="btn1_title" >Start</string>
+    <string name="btn1_title">Start</string>
     <string name="simple_service_title">Simple Service</string>
     <string name="simple_service_desc">Simple Service from the OTest app</string>
 

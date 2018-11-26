@@ -1,95 +1,106 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml:18:1-36:12
-INJECTED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml:18:1-36:12
-INJECTED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml:18:1-36:12
-MERGED from [com.android.support:support-v13:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/3cd0116eafd9bfea1d1cfb7078e8d1ed/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/eb5b05cda719ce902c5162a4bbf4f147/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/1c1e833c95ae04cd0e285941827e8a5e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/095163206f0875d77044013a8715be8e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/e1596a06a71c1f190160b6c13811bb24/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/e21edc06e5003e6904197a338b2543cf/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/aa15bee99dd1d6a0841d545c932eda2a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/ad12ddd4ad863b621ae04b18c4dee9c3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/784ae4d4db598c81edca3c338c9c39bd/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/f2d6be64a32f7fe7360b0f56428ae32a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/2872b94e4d0a7b5ebb50617a94f763a0/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/sundar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/89ec1dd2512940e5e861b6c685aee236/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml:18:1-36:12
-INJECTED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml:18:1-36:12
+ADDED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:16:1-39:12
+INJECTED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:16:1-39:12
+INJECTED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:16:1-39:12
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\29725a857b92b72035e97da9e85cde18\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\3b153c30c0e791abb2f1d719f9ad598d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\3551485a8518d34bd38c2f858ce57833\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\659d0a08b48ae9e2428da2536ff67dbb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4b32b850301962cc060fbec82a4735a0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\c8dacc8f3db1336517ab2f37a22ad85e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\7c69eaa7ed6d132104315ab4f481b206\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\26c473478aac04fae79f6c1520ecdf72\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\65e9c0fb5bee7f75a5f18c2801a42587\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\1b0ad2c92673c48e48b26b6860bba6f8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\f2f05b2358ff0fd8703d61bca55b18ab\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\c8f6e540460b17768503c98a36c3f9a1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\9d547416b14c348741cac1caa9ab8014\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:16:1-39:12
+INJECTED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:16:1-39:12
 	package
-		ADDED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml:19:5-55
+		ADDED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:17:5-55
 	android:versionName
-		ADDED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml:21:5-30
-		INJECTED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml
-		INJECTED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml
+		ADDED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:19:5-30
+		INJECTED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml:18:11-69
+		ADDED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:16:11-69
 	android:versionCode
-		ADDED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml:20:5-28
-		INJECTED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml
-		INJECTED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml
+		ADDED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:18:5-28
+		INJECTED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml
 application
-ADDED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml:23:5-35:19
+ADDED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:21:5-37:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4b32b850301962cc060fbec82a4735a0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4b32b850301962cc060fbec82a4735a0\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml:24:9-41
+		ADDED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:24:9-29
 	android:icon
-		ADDED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml:25:9-43
+		ADDED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:23:9-43
 	android:allowBackup
-		ADDED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml:23:18-44
+		ADDED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:22:9-35
 	android:theme
-		ADDED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml:26:9-40
+		ADDED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:25:9-36
 activity#com.example.android.notificationchannels.MainActivity
-ADDED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml:28:9-34:20
+ADDED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:26:9-35:20
 	android:label
-		ADDED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml:29:19-51
+		ADDED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:28:13-33
+	android:theme
+		ADDED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:29:13-40
 	android:name
-		ADDED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml:28:19-47
+		ADDED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:27:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml:30:13-33:29
+ADDED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml:31:17-69
+ADDED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml:31:25-66
+		ADDED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml:32:17-77
+ADDED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml:32:27-74
+		ADDED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:33:27-74
+activity#com.example.android.notificationchannels.LoginActivity
+ADDED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:36:9-60
+	android:name
+		ADDED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml:36:19-48
 uses-sdk
-INJECTED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml
-INJECTED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml
-MERGED from [com.android.support:support-v13:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/3cd0116eafd9bfea1d1cfb7078e8d1ed/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v13:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/3cd0116eafd9bfea1d1cfb7078e8d1ed/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/eb5b05cda719ce902c5162a4bbf4f147/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/eb5b05cda719ce902c5162a4bbf4f147/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/1c1e833c95ae04cd0e285941827e8a5e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/1c1e833c95ae04cd0e285941827e8a5e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/095163206f0875d77044013a8715be8e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/095163206f0875d77044013a8715be8e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/e1596a06a71c1f190160b6c13811bb24/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/e1596a06a71c1f190160b6c13811bb24/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/e21edc06e5003e6904197a338b2543cf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/e21edc06e5003e6904197a338b2543cf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/aa15bee99dd1d6a0841d545c932eda2a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/aa15bee99dd1d6a0841d545c932eda2a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/ad12ddd4ad863b621ae04b18c4dee9c3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/ad12ddd4ad863b621ae04b18c4dee9c3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/784ae4d4db598c81edca3c338c9c39bd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/784ae4d4db598c81edca3c338c9c39bd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/f2d6be64a32f7fe7360b0f56428ae32a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/f2d6be64a32f7fe7360b0f56428ae32a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/2872b94e4d0a7b5ebb50617a94f763a0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] /home/sundar/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/2872b94e4d0a7b5ebb50617a94f763a0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/sundar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/89ec1dd2512940e5e861b6c685aee236/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/sundar/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/89ec1dd2512940e5e861b6c685aee236/AndroidManifest.xml:20:5-22:41
-INJECTED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml
-INJECTED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml
+INJECTED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml
+INJECTED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\29725a857b92b72035e97da9e85cde18\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\29725a857b92b72035e97da9e85cde18\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\3b153c30c0e791abb2f1d719f9ad598d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\3b153c30c0e791abb2f1d719f9ad598d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\3551485a8518d34bd38c2f858ce57833\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\3551485a8518d34bd38c2f858ce57833\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\659d0a08b48ae9e2428da2536ff67dbb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\659d0a08b48ae9e2428da2536ff67dbb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4b32b850301962cc060fbec82a4735a0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4b32b850301962cc060fbec82a4735a0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\c8dacc8f3db1336517ab2f37a22ad85e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\c8dacc8f3db1336517ab2f37a22ad85e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\7c69eaa7ed6d132104315ab4f481b206\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\7c69eaa7ed6d132104315ab4f481b206\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\26c473478aac04fae79f6c1520ecdf72\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\26c473478aac04fae79f6c1520ecdf72\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\65e9c0fb5bee7f75a5f18c2801a42587\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\65e9c0fb5bee7f75a5f18c2801a42587\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\1b0ad2c92673c48e48b26b6860bba6f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\1b0ad2c92673c48e48b26b6860bba6f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\f2f05b2358ff0fd8703d61bca55b18ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\f2f05b2358ff0fd8703d61bca55b18ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\c8f6e540460b17768503c98a36c3f9a1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\c8f6e540460b17768503c98a36c3f9a1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\9d547416b14c348741cac1caa9ab8014\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\colli\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\9d547416b14c348741cac1caa9ab8014\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml
+INJECTED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml
-		ADDED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml
-		INJECTED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml
-		ADDED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml
-		INJECTED from /home/sundar/AndroidStudioProjects/NotificationChannels/Application/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\colli\AndroidStudioProjects\FAME-app\Application\src\main\AndroidManifest.xml

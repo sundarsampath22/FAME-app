@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "/home/sundar/AndroidStudioProjects/NotificationChannels/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml",
+            "outputFile": "C:\\Users\\colli\\AndroidStudioProjects\\FAME-app\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-el\\values-el.xml",
             "map": [
                 {
-                    "source": "/home/sundar/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/2872b94e4d0a7b5ebb50617a94f763a0/res/values-el/values-el.xml",
+                    "source": "C:\\Users\\colli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\659d0a08b48ae9e2428da2536ff67dbb\\res\\values-el\\values-el.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,223,334,451,536,641,767,855,941,1026,1137,1247,1349,1460,1569,1677,1837,1937",
+                        "endColumns": "117,110,116,84,104,125,87,85,84,110,109,101,110,108,107,159,99,84",
+                        "endOffsets": "218,329,446,531,636,762,850,936,1021,1132,1242,1344,1455,1564,1672,1832,1932,2017"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\colli\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\c8f6e540460b17768503c98a36c3f9a1\\res\\values-el\\values-el.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -18,16 +28,6 @@
                         "startOffsets": "2022",
                         "endColumns": "100",
                         "endOffsets": "2118"
-                    }
-                },
-                {
-                    "source": "/home/sundar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/095163206f0875d77044013a8715be8e/res/values-el/values-el.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,223,334,451,536,641,767,855,941,1026,1137,1247,1349,1460,1569,1677,1837,1937",
-                        "endColumns": "117,110,116,84,104,125,87,85,84,110,109,101,110,108,107,159,99,84",
-                        "endOffsets": "218,329,446,531,636,762,850,936,1021,1132,1242,1344,1455,1564,1672,1832,1932,2017"
                     }
                 }
             ]
