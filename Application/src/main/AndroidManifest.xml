@@ -22,18 +22,25 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="FAME"
-        android:theme="@style/FAME">
+        android:theme="@style/Theme.Design.NoActionBar">
         <activity
             android:name=".MainActivity"
             android:label="FAME"
-            android:theme="@style/FAME">
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity"></activity>
+        <activity
+            android:name=".NewAccountActivity"
+            android:label="@string/title_activity_new_account" />
+        <activity
+            android:name=".SetupActivity"
+            android:label="@string/title_activity_setup" />
+        <activity android:name=".PostActivity"></activity>
     </application>
 
 </manifest>

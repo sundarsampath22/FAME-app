@@ -4,5 +4,6 @@
     <style name="FAME" parent="AppTheme" >
         <item name="android:colorPrimary">@color/primary_material_light</item>
         <item name="android:colorAccent">@color/accent_material_light</item>
+        <item name="android:textColorPrimaryInverse">#FFF</item>
     </style>
 </resources>
