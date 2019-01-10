@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:minWidth = "30px"
+	android:minHeight = "30px"
+	android:laddingLeft = "5dp"
+	android:paddingBottom = "2dp"
+	android:paddingTop = "2dp">
+	<TextView
+		android:text = "content"
+		android:layout_width = "match_parent"
+		android:layout_height = "warp_content"
+		android:id = "@+id/txtContent"/>
+
+	<TextView
+		android:text = "senter"
+		android:layout_width = "match_parent"
+		android:layout_height = "warp_content"
+		android:id = "@+id/txtSenter"/>
+
+	<TextView
+		android:text = "time"
+		android:layout_width = "match_parent"
+		android:layout_height = "warp_content"
+		android:id = "@+id/txtTime"/>
+</LinearLayout>
