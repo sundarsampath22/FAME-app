@@ -644,10 +644,13 @@ color dim_foreground_material_dark
 color dim_foreground_material_light
 color error_color_material_dark
 color error_color_material_light
+color fame_red
+color fame_yellow
 color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -655,6 +658,7 @@ color material_deep_teal_200
 color material_deep_teal_500
 color material_grey_100
 color material_grey_300
+color material_grey_400
 color material_grey_50
 color material_grey_600
 color material_grey_800
@@ -1075,6 +1079,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable post_template_background
 drawable tile
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1109,6 +1114,7 @@ id adjust_height
 id adjust_width
 id alertTitle
 id all
+id all_users_posts_list
 id always
 id async
 id auto
@@ -1118,6 +1124,7 @@ id blocking
 id bottom
 id btn_create_account
 id btn_login
+id btn_post
 id btn_save
 id buttonPanel
 id cancel_action
@@ -1160,6 +1167,7 @@ id et_email
 id et_firstName
 id et_lastName
 id et_password
+id et_post_text
 id et_username
 id exitUntilCollapsed
 id expand_activities_button
@@ -1181,6 +1189,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id imageView1
 id info
 id invisible
 id italic
@@ -1222,8 +1231,10 @@ id parentPanel
 id parent_matrix
 id percent
 id pin
+id post_toolbar
 id progress_circular
 id progress_horizontal
+id pullToRefresh
 id radio
 id right
 id right_icon
@@ -1281,6 +1292,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+id textView1
 id textView2
 id text_input_password_toggle
 id textinput_counter
@@ -1300,6 +1312,9 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id tv_create_account
+id tv_date
+id tv_post_body
+id tv_post_first_last
 id tv_setup
 id uniform
 id unlabeled
@@ -1396,12 +1411,17 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout post_template
+layout recycler_view_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 menu drawer_view
+mipmap fame_icon
+mipmap fame_icon_round
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -1478,6 +1498,7 @@ string google_crash_reporting_api_key
 string google_storage_bucket
 string hide_bottom_view_on_scroll_behavior
 string intro_message
+string lorem_ipsum
 string main_create_noti2_btn
 string main_primary_config
 string main_primary_send1
@@ -1707,6 +1728,7 @@ style CardView
 style CardView_Dark
 style CardView_Light
 style FAME
+style FAME_No_ActionBar
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents

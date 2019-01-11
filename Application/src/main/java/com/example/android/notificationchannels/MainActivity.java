@@ -23,12 +23,21 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.view.LayoutInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.firebase.ui.database.FirebaseRecyclerAdapter;
+import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -40,9 +49,12 @@ import com.google.firebase.database.ValueEventListener;
 public class MainActivity extends AppCompatActivity {
 
     private DrawerLayout mDrawerLayout;
+
+    private RecyclerView postList;
+
     private FirebaseAuth mAuth;
     private DatabaseReference userRef;
-
+    private DatabaseReference postRef;
 
     String currentUserID;
 
@@ -54,12 +66,29 @@ public class MainActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         currentUserID = mAuth.getCurrentUser().getUid();
         userRef = FirebaseDatabase.getInstance().getReference().child("users");
+        postRef = FirebaseDatabase.getInstance().getReference().child("posts");
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         ActionBar actionbar = getSupportActionBar();
         actionbar.setDisplayHomeAsUpEnabled(true);
         actionbar.setHomeAsUpIndicator(R.drawable.ic_menu);
+
+        postList = findViewById(R.id.all_users_posts_list);
+        postList.setHasFixedSize(false);
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
+        linearLayoutManager.setReverseLayout(true);
+        linearLayoutManager.setStackFromEnd(true);
+        postList.setLayoutManager(linearLayoutManager);
+
+        final SwipeRefreshLayout pullToRefresh = findViewById(R.id.pullToRefresh);
+        pullToRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                displayUserPosts();
+                pullToRefresh.setRefreshing(false);
+            }
+        });
 
 
         mDrawerLayout = findViewById(R.id.drawer_layout);
@@ -119,6 +148,7 @@ public class MainActivity extends AppCompatActivity {
         {
             checkUserExistence();
         }
+        displayUserPosts();
     }
 
     private void checkUserExistence()
@@ -158,5 +188,48 @@ public class MainActivity extends AppCompatActivity {
         Intent newPostIntent = new Intent(MainActivity.this, PostActivity.class);
         newPostIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(newPostIntent);
+    }
+
+    public static class PostViewHolder extends RecyclerView.ViewHolder
+    {
+        TextView firstLast, body, date;
+        public PostViewHolder(View itemView)
+        {
+            super(itemView);
+            firstLast = itemView.findViewById(R.id.tv_post_first_last);
+            body = itemView.findViewById(R.id.tv_post_body);
+            date = itemView.findViewById(R.id.tv_date);
+        }
+    }
+    private void displayUserPosts()
+    {
+        FirebaseRecyclerOptions<Post> options =
+                new FirebaseRecyclerOptions.Builder<Post>()
+                        .setQuery(postRef, Post.class)
+                        .build();
+
+        FirebaseRecyclerAdapter<Post, PostViewHolder> adapter =
+                new FirebaseRecyclerAdapter<Post, PostViewHolder>(options) {
+                    @Override
+                    protected void onBindViewHolder(@NonNull PostViewHolder holder, int position, @NonNull Post model)
+                    {
+                        String name = model.getFirstName() + " " +  model.getLastName();
+                        holder.firstLast.setText(name);
+                        holder.body.setText(model.getBody());
+                        holder.date.setText(model.getDate());
+                    }
+
+                    @NonNull
+                    @Override
+                    public PostViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType)
+                    {
+                        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.post_template, parent, false);
+                        PostViewHolder viewHolder = new PostViewHolder(view);
+                        return viewHolder;
+                    }
+                };
+
+        postList.setAdapter(adapter);
+        adapter.startListening();
     }
 }

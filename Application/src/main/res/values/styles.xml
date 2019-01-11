@@ -2,8 +2,13 @@
 <resources>
 
     <style name="FAME" parent="AppTheme" >
-        <item name="android:colorPrimary">@color/primary_material_light</item>
-        <item name="android:colorAccent">@color/accent_material_light</item>
+        <item name="android:colorPrimary">@color/fame_red</item>
+        <item name="android:colorAccent">@color/fame_yellow</item>
         <item name="android:textColorPrimaryInverse">#FFF</item>
+    </style>
+
+    <style name="FAME_No_ActionBar" parent="Theme.Design.NoActionBar" >
+        <item name="colorAccent">@color/fame_yellow</item>
+        <item name="colorPrimary">@color/fame_red</item>
     </style>
 </resources>

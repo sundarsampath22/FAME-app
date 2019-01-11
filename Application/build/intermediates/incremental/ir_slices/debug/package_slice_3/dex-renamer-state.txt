@@ -1,4 +1,4 @@
-#Mon Dec 31 14:17:33 EST 2018
+#Thu Jan 10 23:27:09 EST 2019
 base.0=C\:\\Users\\colli\\AndroidStudioProjects\\FAME-app\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\3
 path.0=classes.dex
 renamed.0=classes.dex

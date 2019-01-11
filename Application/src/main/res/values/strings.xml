@@ -27,4 +27,5 @@
     <string name="secondary2_body">Second Notification for Secondary Channel</string>
     <string name="title_activity_new_account">Create New Account</string>
     <string name="title_activity_setup">Setup Account</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu lorem rhoncus, tempus lorem non, scelerisque justo. Nam eget nibh imperdiet, consectetur ex id,</string>
 </resources>

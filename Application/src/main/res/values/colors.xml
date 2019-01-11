@@ -3,6 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="primary_material_light">#b30000</color>
-    <color name="accent_material_light">#ffd900</color>
+    <color name="fame_red">#8f0000</color>
+    <color name="fame_yellow">#ffd900</color>
+    <color name="material_grey_400">#BDBDBD</color>
+    <color name="material_grey_600">#757575</color>
 </resources>

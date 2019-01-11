@@ -20,13 +20,13 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/fame_icon_round"
         android:label="FAME"
-        android:theme="@style/Theme.Design.NoActionBar">
+        android:theme="@style/FAME_No_ActionBar">
         <activity
             android:name=".MainActivity"
             android:label="FAME"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/FAME_No_ActionBar" />
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -40,7 +40,13 @@
         <activity
             android:name=".SetupActivity"
             android:label="@string/title_activity_setup" />
-        <activity android:name=".PostActivity"></activity>
+        <activity
+            android:name=".PostActivity"
+            android:label="New Post">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
     </application>
 
 </manifest>
