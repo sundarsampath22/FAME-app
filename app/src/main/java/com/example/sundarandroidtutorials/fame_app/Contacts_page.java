@@ -25,6 +25,7 @@ public class Contacts_page extends ListActivity {
     protected void onListItemClick(ListView l, View v, int position, long id) {
         Intent intent = new Intent(getApplicationContext(), activity_message_list.class);
         startActivity(intent);
+
     }
 
 }
